@@ -1,0 +1,9 @@
+columns:
+  - "Non Nutrient Data.FDC Name"
+  - "Energy.Energy [KCAL]"
+  - "Macronutrient.Carbohydrate [G]"
+  - "Macronutrient.Protein [G]"
+  - "Macronutrient.Total Fat [G]"
+
+output_path:
+  "output/spreadsheets/mealplan.xlsx"

@@ -1,0 +1,12 @@
+columns:
+- 'Non Nutrient Data.Image URL'
+- 'Shopping List.Product Name'
+- 'Shopping List.Optimal Weekly Quantity (g)'
+- 'Shopping List.Product Package Quantity Per Period (units / week)'
+- 'Shopping List.Product Package Weight (g)'
+- 'Shopping List.Shopping Period (weeks)'
+- 'Shopping List.Average Weekly Price (EUR)'
+
+paths:
+  data: "output/merged/merged_optimization_result.csv"
+  output: "output/shopping_list/shopping_list.xlsx"

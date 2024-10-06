@@ -1,0 +1,15 @@
+venv/*
+src/__pycache__/*
+*.pyc
+
+output/merged/*
+!output/merged/.gitkeep
+
+output/raw/*
+!output/raw/.gitkeep
+
+output/shopping_list/*
+!output/shopping_list/.gitkeep
+
+output/spreadsheets/*
+!output/spreadsheets/.gitkeep

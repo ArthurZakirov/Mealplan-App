@@ -1,0 +1,20 @@
+data_path: "data/nutrition_data.csv"
+debug: false
+selected_body_type: false
+show_mealplan: true
+show_micronutrient_health_outcomes_bool: false
+image_path: "images/body_shapes"
+normalized_raw_output_path: "output/raw/optimization_output.csv"
+absolute_raw_output_path: "output/raw/optimization_output_absolute.csv"
+output_path: "output/spreadsheets/mealplan.xlsx"
+mealplan_path: "output/merged"
+
+streamlit_mealplan_columns:
+  - "Non Nutrient Data.Image URL"
+  - "Non Nutrient Data.FDC Name"
+  - "Daily Mealplan.Optimal Quantity (g)"
+  - "Daily Mealplan.Price (EUR)"
+        
+
+upload_spreadsheet: true
+upload_shopping_list: true
